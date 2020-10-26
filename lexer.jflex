@@ -12,7 +12,6 @@ import java_cup.runtime.Symbol;
 
 %{
 	
-
     public Lexer(ComplexSymbolFactory sf, java.io.InputStream is){
 		this(is);
         symbolFactory = sf;
